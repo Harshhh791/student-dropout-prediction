@@ -1,6 +1,6 @@
-# 🎓 Student Dropout Prediction using Machine Learning
+# > Student Dropout Prediction using Machine Learning
 
-## 📌 Problem Statement
+## > Problem Statement
 Student dropout is a major challenge for educational institutions.  
 This project builds a machine learning system to predict whether a student is at risk of dropping out based on academic, demographic, and performance features.
 
@@ -8,7 +8,7 @@ The goal is to enable early intervention strategies and improve student retentio
 
 ---
 
-## 📊 Dataset
+## > Dataset
 Source: UCI Machine Learning Repository  
 Predict Students Dropout and Academic Success  
 https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success
@@ -17,7 +17,7 @@ The dataset contains academic, socioeconomic, and enrollment-related features fo
 
 ---
 
-## 🛠 Tech Stack
+## > Tech Stack
 - Python
 - Pandas
 - NumPy
@@ -28,7 +28,7 @@ The dataset contains academic, socioeconomic, and enrollment-related features fo
 
 ---
 
-## 🔎 Approach
+## > Approach
 
 1. Data Cleaning & Preprocessing
 2. Feature Engineering
@@ -39,7 +39,7 @@ The dataset contains academic, socioeconomic, and enrollment-related features fo
 
 ---
 
-## 📈 Model Performance (XGBoost)
+## > Model Performance (XGBoost)
 
 Classification Report:
 
@@ -53,12 +53,12 @@ Classification Report:
 - Macro Average F1: **0.71**
 - Weighted Average F1: **0.76**
 
-### 🔎 Key Insight
+### > Key Insight
 The model achieves strong performance in identifying **Dropout students (F1 = 0.77)**, which is the most critical class for early intervention.
 
 ---
 
-## 📂 Project Structure
+## > Project Structure
 
 data/
 app.py
@@ -71,7 +71,7 @@ requirements.txt
 
 ---
 
-## ▶️ How to Run
+## > How to Run
 
 1. Install dependencies:
 
@@ -87,7 +87,7 @@ python app.py
 
 ---
 
-## 📈 Model Interpretability
+## > Model Interpretability
 
 The model uses SHAP to explain feature importance and prediction contributions.
 
@@ -95,7 +95,7 @@ The model uses SHAP to explain feature importance and prediction contributions.
 
 ---
 
-## 🎯 Impact
+## > Impact
 
 This system can help institutions:
 - Identify at-risk students early
